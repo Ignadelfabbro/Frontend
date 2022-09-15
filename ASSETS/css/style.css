@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*body{
+    background-image: url(../img/paisaje.jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}*/
+.navbar .navbar-expand-leg.bg-secondary{
+    background-color: aquamarine !important;
+}
+i.fa-brands.fa-whatsapp.fa-xl,
+i.fa-solid.fa-at.fa-lg,
+i.fa-brands.fa-instagram.fa-xl,
+i.fa-regular.fa-user-lock.fa-xl
+i.fa-regular.fa-user.fa-xl{
+    color: black;
+}
+
+i.fa-brands.fa-whatsapp.fa-xl:hover{
+    color: green;
+}
+
+i.fa-brands.fa-instagram.fa-xl:hover{
+    color: rgba(23, 62, 235, 0.726);
+}
+
+i.fa-solid.fa-at.fa-lg:hover{
+    color: rgb(218, 18, 18);
+}
+
+i.fa-solid.fa-user.fa-xl:hover{
+    color: rosybrown;
+}
+
+.list-group{
+    --darkreader-bg--bs-list-group-bg: transparent;
+}
+
+section.Dashboard{
+    margin-top: 13rem;
+}
+/*BANNER*/
+section.about{
+    margin-top: 10rem;
+    background-image: url(../img/paisaje.jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+section.about.section.Foto{
+    margin-top: -50rem;
+}
+
+.modal-backdrop{
+    --bs-backdrop-zindex: 1029
+    --bs-backdrop-bg: rgb(0 0 0 / 8%)
+    --bs-backdrop-opacity: 0
+}
+.h4.list-group{
+    color: antiquewhite !important;
+}
+section.Datos{
+    margin-left: 15rem;
+    margin-top: -10rem;
+}
+section.Estudios{
+    margin-left: 15rem;
+    margin-top: 5rem;
+}
